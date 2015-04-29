@@ -17,7 +17,7 @@ module.exports = function (gulp, plugins, options) {
       loadMaps: true
     }))
     .pipe(plugins.if(options.uglify, plugins.uglify()))
-    .pipe(plugins.if(options.sourcemaps, plugins.sourcemaps.write('./')))
-    .pipe(gulp.dest(options.dest));
+    .pipe(gulp.dest(options.dest))
+    .pipe(plugins.if(options.sourcemaps, plugins.sourcemaps.write('./')));
   };
 };
