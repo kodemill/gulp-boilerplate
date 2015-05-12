@@ -46,6 +46,8 @@
     "gulp-watch": "^4.1.1",
     "jshint-stylish": "^1.0.1",
     "lodash": "^3.8.0",
+    "run-sequence": "^1.1.0",
+    "through2": "^0.6.5",
     "vinyl": "^0.4.6",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
